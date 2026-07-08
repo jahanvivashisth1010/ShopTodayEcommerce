@@ -10,9 +10,7 @@ const app = express();
 
 connectDB();
 
-// ✅ Data Imported Successfully!
-// 👤 Admin: admin@shopnest.com / password123
-// 👤 Test User: user@shopnest.com / password123
+
 
 // app.use(cors());
 // Set CORS for frontend URL / allow single-node deploy
