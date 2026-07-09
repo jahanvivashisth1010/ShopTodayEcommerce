@@ -5,6 +5,8 @@ const path = require("path");
 
 dotenv.config(); // Load .env FIRST
 
+console.log("NODE_ENV =", process.env.NODE_ENV);
+
 const connectDB = require("./config/db");
 
 const app = express();
