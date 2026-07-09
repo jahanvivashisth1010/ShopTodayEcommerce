@@ -26,9 +26,9 @@ app.use(
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.get("/", (req, res) => {
-  res.send("ShopToday Backend is working properly!");
-});
+// app.get("/", (req, res) => {
+//   res.send("ShopToday Backend is working properly!");
+// });
 
 app.use("/api/auth", require("./routes/authRoutes"));
 app.use("/api/products", require("./routes/productRoutes"));
